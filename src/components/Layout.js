@@ -1,12 +1,12 @@
 import React from 'react';
 
-import Header from './Header';
+import Sidebar from './Sidebar';
 import '../styles/Layout.css';
 
 const Layout = ({ children }) => {
   return (
-    <div className='container'>
-      <Header />
+    <div className=''>
+      <Sidebar />
       {children}
     </div>
   );

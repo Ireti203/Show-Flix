@@ -12,7 +12,6 @@ function App() {
     <Router>
       <Switch>
         {routes.map((route) => (
-          // map fonksiyonu kullanırken her bir eleman için unique bir key verilmeli
           <Route exact={route.exact} path={route.path}>
             <Layout>{route.component}</Layout>
           </Route>
