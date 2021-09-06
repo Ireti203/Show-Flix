@@ -342,8 +342,17 @@ form {
     flex-direction : column;
   }
 
+  .movie-title{
+    margin-top : 66px;
+  }
+
   .search-result {
     margin-top :47px;
+  }
+
+  .watch-button {
+    width : 311px;
+    height : 64px;
   }
 
   .submit-button2 img {
