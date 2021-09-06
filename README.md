@@ -1,6 +1,6 @@
 # Movie Search App
 
-This project is a React application with functions to search for movies and add movies to favorites using OMDb API.
+This project is a React application with functions to search for movies and view the details of a selected movie..
 
 
 # Project setup
