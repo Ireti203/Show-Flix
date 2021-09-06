@@ -43,12 +43,10 @@ const Detail = () => {
             <img src={Play} alt=''></img><span>{selectedMovie.Runtime}</span>
           </div>
         </div>
-        <div className='watch-button'>
-          <div
-            className='submit-button'
-          >Watch Now
-          </div>
-        </div>
+        <button
+          className='watch-button'
+        >Watch Now
+        </button >
       </div>
     </div>
   );
