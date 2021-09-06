@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import Input from "../components/Input";
 import { MovieContext } from "../context/MovieContext";
 import Card from "../components/Card";
-import "../styles/Layout.css";
+import "../styles/Style.css";
 
 const Home = () => {
   const { setSearch, movies, search, fetchMovies } = useContext(MovieContext);
@@ -21,8 +21,8 @@ const Home = () => {
         <div className="row">
           {movies?.map((movie) => {
             return (
-              <Link /*'movies/tt1201607'*/
-                to={`movies/${movie.imdbID}`} /* Router.js dinamik path yapısıyla aynı olacak şekilde imdbID ile routing işlemini yapınız */
+              <Link 
+                to={`movies/${movie.imdbID}`} 
                 className="text-link"
                 key={movie.imdbID}
               >

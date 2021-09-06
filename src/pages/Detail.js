@@ -8,7 +8,7 @@ import Ellipse from "../utils/Ellipse.png";
 import { MovieContext } from "../context/MovieContext";
 
 import noImage from "../utils/no-image-available.png";
-import "../styles/Layout.css";
+import "../styles/Style.css";
 
 const Detail = () => {
   let { id } = useParams();

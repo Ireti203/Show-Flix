@@ -1,6 +1,6 @@
 import React from 'react';
 import Search from '../utils/Search.svg';
-import '../styles/Layout.css';
+import '../styles/Style.css';
 
 const Input = ({handleSearch, search, fetchMovies}) => {
 const submitForm = (e, search) =>  {

@@ -37,7 +37,7 @@ import React from 'react';
 import Logo from '../utils/Logo.svg'
 import Search from '../utils/Search.svg'
 import Heart from '../utils/Heart.svg'
-import '../styles/Layout.css';
+import '../styles/Style.css';
 
 const Sidebar = () => {
 	return (
