@@ -22,7 +22,7 @@ const submitForm = (e, search) =>  {
             <button type ='submit' 
             className='submit-button'
             >Search
-             </button>           
+             </button >           
              <div className='submit-button2'>
             <img src = {Search} alt =''></img>
             </div>

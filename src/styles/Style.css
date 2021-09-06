@@ -84,7 +84,7 @@ form {
   height: 64px;
   background-color: #5F2EEA ;
   outline : none !important;
-  justify-content: space-around;
+  display : flex;
   border : none;
   color: white;
   position : absolute;
@@ -133,7 +133,6 @@ form {
   left: 0;
   width: 300px;
   height: 100%;
-  /* padding: 10px 60px; */
 }
 
 .search-box {
@@ -179,10 +178,8 @@ form {
   color: white;
 }
 
-/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
 .search-form {
   margin-left: 360px;
-  /* padding-left :20px; */
   margin-top: 114px;
 }
 
@@ -195,8 +192,8 @@ form {
 .search-field {
   display : flex;
   position : relative;
-  /* justify-content: space-around; */
 }
+
 .search {
  /* right: 0 ; */
   position: absolute;
@@ -227,19 +224,13 @@ form {
   background-color: #5F2EEA ;
   outline : none !important;
   border : none;
+  font-display: flex;
   color: white;
   border-radius : 25px;
-  margin-left : 35px;
   font-family: Poppins;
   font-style: normal;
-  font-weight: 600;
   font-size: 16px;
-  line-height: 28px;
-  letter-spacing: 0.75px;
 }
-/* .submit-button2 {
-  display: none;
-} */
 
 .row {
   margin-left : 350px;

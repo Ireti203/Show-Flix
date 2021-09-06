@@ -2,7 +2,6 @@ import React, { useEffect, useContext } from "react";
 import { useParams } from "react-router-dom";
 import Play from "../utils/Play.png";
 import Star from "../utils/Star.png";
-import Heart from "../utils/Heart.svg";
 import Ellipse from "../utils/Ellipse.png";
 
 import { MovieContext } from "../context/MovieContext";
@@ -15,7 +14,7 @@ const Detail = () => {
   const { showDetail, selectedMovie } = useContext(MovieContext);
   useEffect(() => {
     showDetail(id);
-  }, []);
+  }, [id, showDetail]);
 
   return (
     <div className="movie-details">
@@ -48,9 +47,6 @@ const Detail = () => {
           <div
             className='submit-button'
           >Watch Now
-          </div>
-          <div className='heart-icon'>
-            <img src={Heart} alt=''></img>
           </div>
         </div>
       </div>
