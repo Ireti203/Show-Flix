@@ -224,6 +224,7 @@ form {
   background-color: #5F2EEA ;
   outline : none !important;
   border : none;
+  margin-left : 40px;
   font-display: flex;
   color: white;
   border-radius : 25px;
