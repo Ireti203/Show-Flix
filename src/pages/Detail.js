@@ -3,9 +3,7 @@ import { useParams } from "react-router-dom";
 import Play from "../utils/Play.png";
 import Star from "../utils/Star.png";
 import Ellipse from "../utils/Ellipse.png";
-
 import { MovieContext } from "../context/MovieContext";
-
 import noImage from "../utils/no-image-available.png";
 import "../styles/Style.css";
 
